@@ -1,7 +1,6 @@
 {
   "name": "meenmeennodejs_sql",
   "version": "1.0.0",
-  "description": "",
   "main": "nodejs_sql.js",
   "scripts": {
     "start": "nodemon nodejs_sql.js",
@@ -14,5 +13,14 @@
     "ejs": "^3.1.7",
     "express": "^4.18.0",
     "mysql": "^2.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkployprapar/examce223.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nkployprapar/examce223/issues"
+  },
+  "homepage": "https://github.com/nkployprapar/examce223#readme",
+  "description": ""
 }
