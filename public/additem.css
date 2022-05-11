@@ -1,0 +1,28 @@
+
+
+.add{
+   
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #ffffff;
+    border: 3px solid #d0ca4e;
+}
+
+input {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    height: 20px;
+    margin: 5px;
+    display: list-item;
+}
+
+button{
+    margin-top: 10px;
+    border: 2px solid #d0ca4e;
+    border-radius: 10px;
+    background-color: #d0ca4e;
+    color: white;
+    width: 80px;
+    height: 30px;
+    margin-left: 300px;
+}

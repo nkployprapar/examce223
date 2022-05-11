@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery check POST Add Item</title>
+    <link rel="stylesheet" href="additem.css">
+</head>
+<body>
+    <% if(typeof mesg != "undefined") { %>
+        <h1><%= mesg %></h1>
+        <% } %>
+    <div class="add">    
+        <h1>Add item</h1>
+        <form action="/additem" method="post">
+            <div>
+                <label>id</label>
+                <input class="input" type="text" name="id" id="id">
+            </div>
+            <div>
+                <label>วันที่</label>
+                <input class="input" type="date" name="date" id="date">
+            </div>
+            <div>
+                <label>ประเภท</label>
+                <input class="input" type="text" name="types" id="types">
+            </div>
+            <div>
+                <label>เลขที่ออก</label>
+                <input class="input" type="text" name="number" id="number">
+            </div>
+            <div>
+                <label>จำนวนมูลค่า</label>
+                <input class="input" type="text" name="money" id="money">
+            </div>
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
